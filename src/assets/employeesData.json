@@ -1,0 +1,331 @@
+{
+    "meta": {
+        "total": 2842,
+        "limit": 20,
+        "offset": 0,
+        "next": ""
+    },
+    "data": [
+        {
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Petar",
+            "lastname": "Petrovic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-10-18 09:10:00",
+                "time": "09:12:00",
+                "user": "function"
+            },
+            "history": "1633_History.json"
+        },
+        {
+            "oid": 1634,
+            "customer": "C0002",
+            "ouid": 12345695,
+            "firstname": "Mesa",
+            "lastname": "Selimovic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-11-15 13:11:00",
+                "time": "13:23:00",
+                "user": "ali"
+            },
+            "history": "1634_History.json"
+        },
+        {
+            "oid": 1635,
+            "customer": "C0002",
+            "ouid": 12345743,
+            "firstname": "Ivo",
+            "lastname": "Andric",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1635_History.json"
+        },
+        {
+            "oid": 1636,
+            "customer": "C0002",
+            "ouid": 12345744,
+            "firstname": "Mehmedalija",
+            "lastname": "Dizdar",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-09-28 12:09:00",
+                "time": "12:00:00",
+                "user": "function"
+            },
+            "history": "1636_History.json"
+        },
+        {
+            "oid": 1637,
+            "customer": "C0002",
+            "ouid": 12345745,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-09-25 11:09:00",
+                "time": "11:01:00",
+                "user": "function"
+            },
+            "history": "1637_History.json"
+        },
+        {
+            "oid": 1638,
+            "customer": "C0002",
+            "ouid": 12345746,
+            "firstname": "Dervis",
+            "lastname": "Susic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-07-03 13:07:00",
+                "time": "13:21:00",
+                "user": "Admin"
+            },
+            "history": "1638_History.json"
+        },
+        {
+            "oid": 1639,
+            "customer": "C0002",
+            "ouid": 12345747,
+            "firstname": "Jovan",
+            "lastname": "Ducic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-10-01 15:10:00",
+                "time": "15:33:00",
+                "user": "function"
+            },
+            "history": "1639_History.json"
+        },
+        {
+            "oid": 1640,
+            "customer": "C0002",
+            "ouid": 12345748,
+            "firstname": "Petar",
+            "lastname": "Kocic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-07-03 13:07:00",
+                "time": "13:20:00",
+                "user": "Admin"
+            },
+            "history": "1640_History.json"
+        },
+        {
+            "oid": 1641,
+            "customer": "C0002",
+            "ouid": 12345749,
+            "firstname": "Dzevad",
+            "lastname": "Karahasan",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-10-17 12:10:00",
+                "time": "12:27:00",
+                "user": "function"
+            },
+            "history": "1641_History.json"
+        },
+        {
+            "oid": 1642,
+            "customer": "C0002",
+            "ouid": 12345750,
+            "firstname": "FirtstName",
+            "lastname": "LastName",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-07-03 13:07:00",
+                "time": "13:21:00",
+                "user": "Admin"
+            },
+            "history": "1642_History.json"
+        },
+        {
+            "oid": 1643,
+            "customer": "C0002",
+            "ouid": 12345751,
+            "firstname": "Hamza",
+            "lastname": "Humo",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1643_History.json"
+        },
+        {
+            "oid": 1644,
+            "customer": "C0002",
+            "ouid": 12345752,
+            "firstname": "Nijaz",
+            "lastname": "Alispahic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1644_History.json"
+        },
+        {
+            "oid": 1645,
+            "customer": "C0002",
+            "ouid": 12345753,
+            "firstname": "Dario",
+            "lastname": "Dzamonja",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1645_History.json"
+        },
+        {
+            "oid": 1646,
+            "customer": "C0002",
+            "ouid": 12345754,
+            "firstname": "Hasan",
+            "lastname": "Kikic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1646_History.json"
+        },
+        {
+            "oid": 1647,
+            "customer": "C0002",
+            "ouid": 12345755,
+            "firstname": "Muhamed",
+            "lastname": "Filipovic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1647_History.json"
+        },
+        {
+            "oid": 1648,
+            "customer": "C0002",
+            "ouid": 12345696,
+            "firstname": "Besim",
+            "lastname": "Korkut",
+            "badgenr10": 101100015,
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1648_History.json"
+        },
+        {
+            "oid": 1649,
+            "customer": "C0002",
+            "ouid": 12345697,
+            "firstname": "Dusan",
+            "lastname": "Djurovic",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1649_History.json"
+        },
+        {
+            "oid": 1650,
+            "customer": "C0002",
+            "ouid": 12345698,
+            "firstname": "Mula Mustafa",
+            "lastname": "Baseskija",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1650_History.json"
+        },
+        {
+            "oid": 1651,
+            "customer": "C0002",
+            "ouid": 12345699,
+            "firstname": "Alija",
+            "lastname": "Dubocanin",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": false,
+                "date": null,
+                "time": null,
+                "user": null
+            },
+            "history": "1651_History.json"
+        },
+        {
+            "oid": 1652,
+            "customer": "C0002",
+            "ouid": 12345700,
+            "firstname": "Muhamed Hevaija",
+            "lastname": "Uskufija",
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "production": {
+                "state": true,
+                "date": "2018-09-20 21:09:00",
+                "time": "21:35:00",
+                "user": "function"
+            },
+            "history": "1652_History.json"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+<h2 mat-dialog-title *ngIf="data.employeeHistory.length">
+  {{data.employeeHistory[0].oid}} - {{data.employeeHistory[0].firstname}} {{data.employeeHistory[0].lastname}} - Employee History
+</h2>
+<h2 mat-dialog-title *ngIf="!data.employeeHistory.length">
+  There is no history available for this employee.
+</h2>
+<mat-dialog-content>
+    <div class="example-container mat-elevation-z8" *ngIf="data.employeeHistory.length">
+        <table mat-table [dataSource]="data.employeeHistory">
+
+          <!-- HOID Column -->
+          <ng-container matColumnDef="hoid">
+            <th mat-header-cell *matHeaderCellDef> HOID </th>
+            <td mat-cell *matCellDef="let element"> {{element.hoid}} </td>
+          </ng-container>
+
+          <!-- Date Column -->
+          <ng-container matColumnDef="changed">
+            <th mat-header-cell *matHeaderCellDef> Date Changed </th>
+            <td mat-cell *matCellDef="let element"> {{element.changed}} </td>
+          </ng-container>
+
+          <!-- Category Column -->
+          <ng-container matColumnDef="category">
+            <th mat-header-cell *matHeaderCellDef> Category </th>
+            <td mat-cell *matCellDef="let element">
+              <p><label>Description: </label><span>{{element.category.description}}</span></p>
+              <p><label>ID: </label><span>{{element.category.id}}</span></p>
+            </td>
+          </ng-container>
+
+          <!-- Location ID Column -->
+          <ng-container matColumnDef="locationid">
+            <th mat-header-cell *matHeaderCellDef> Location ID </th>
+            <td mat-cell *matCellDef="let element"> {{element.locationid}} </td>
+          </ng-container>
+
+            <!-- Location Name Column -->
+          <ng-container matColumnDef="locationname">
+            <th mat-header-cell *matHeaderCellDef> Location Name </th>
+            <td mat-cell *matCellDef="let element"> {{element.locationname}} </td>
+          </ng-container>
+
+            <!-- idf Column -->
+          <ng-container matColumnDef="idf">
+            <th mat-header-cell *matHeaderCellDef> idf </th>
+            <td mat-cell *matCellDef="let element">
+              <p><label>Change User: </label><span>{{element.idf.changeuser}}</span></p>
+              <p><label>Export: </label><span>{{element.idf.export}}</span></p>
+              <p><label>State: </label><span>{{element.idf.state}}</span></p>
+            </td>
+          </ng-container>
+
+            <!-- Production Column -->
+          <ng-container matColumnDef="production">
+            <th mat-header-cell *matHeaderCellDef> Production </th>
+            <td mat-cell *matCellDef="let element">
+              <p><label>State: </label><span>{{element.production.state}}</span></p>
+            </td>
+          </ng-container>
+
+          <tr mat-header-row *matHeaderRowDef="displayedColumns; sticky: true"></tr>
+          <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+      </div>
+</mat-dialog-content>
+<mat-dialog-actions align="center">
+  <button mat-button mat-dialog-close>Close History</button>
+</mat-dialog-actions>

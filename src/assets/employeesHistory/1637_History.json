@@ -1,0 +1,298 @@
+{
+    "meta": {
+        "total": 95,
+        "limit": 20,
+        "offset": 0,
+        "next": ""
+    },
+    "data": [
+        {
+            "hoid": 9830,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102889,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "T",
+                "export": "4-Eye-Check Completed",
+                "changeuser": "testing"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-11-05",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9657,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102873,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "T",
+                "export": "4-Eye-Check Completed",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9656,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102873,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "U",
+                "export": "4-Eye-Check Required",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9655,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102873,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "X",
+                "export": "Produced",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9654,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102873,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "E",
+                "export": "New Badge Number Assigned",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": false
+            }
+        },
+        {
+            "hoid": 9653,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102873,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "E",
+                "export": "New Badge Number Assigned",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": false
+            }
+        },
+        {
+            "hoid": 9652,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102872,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "C",
+                "export": "Blocked Permanently",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9651,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102872,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "W",
+                "export": "Revoke Temporary Block",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9650,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102872,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "U",
+                "export": "4-Eye-Check Required",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9649,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102872,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "X",
+                "export": "Produced",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": true
+            }
+        },
+        {
+            "hoid": 9648,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102872,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "E",
+                "export": "New Badge Number Assigned",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": false
+            }
+        },
+        {
+            "hoid": 9647,
+            "oid": 1633,
+            "customer": "C0002",
+            "ouid": 12345679,
+            "firstname": "Branko",
+            "lastname": "Copic",
+            "badgenr10": 101102872,
+            "category": {
+                "id": "20",
+                "description": "Temporary Employee "
+            },
+            "idf": {
+                "state": "E",
+                "export": "New Badge Number Assigned",
+                "changeuser": "function"
+            },
+            "locationid": "D3",
+            "locationname": "Tuzla",
+            "changed": "2018-09-27",
+            "production": {
+                "state": false
+            }
+        }
+    ]
+}

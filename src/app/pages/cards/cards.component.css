@@ -1,0 +1,10 @@
+.example-card {
+  float:left;
+  width: 200px;
+  margin: 20px 10px;
+  text-align: center;
+}
+
+.employe-history-button:hover {
+  opacity: 0.5;
+}
